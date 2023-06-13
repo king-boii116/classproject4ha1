@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Roy-T]C{_KTK+0QS+Sg-" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="{dZ7B[fbr$S{UOV7x+^Z"><field name="LEDS">`
+        # . # . # 
+        # . # . . 
+        # # # . # 
+        # . # . # 
+        # . # . #
+        `</field><next><block type="device_clear_display" id="L)GrB-0|XZZR7IoPzg6~"><next><block type="device_show_leds" id="bnu2:#^@r5QuB5tY`Qw?"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        # # # # # 
+        . # # . . 
+        . . # . .
+        `</field><next><block type="device_clear_display" id="fWS/P@Rgf[y@JPn|,EqP"></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="L~W]?NgNZB@JB]l3DuIv" x="-2" y="626"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="playMelody" id="oUXqX+:+#jtY#7F}V5Vf"><value name="melody"><shadow type="melody_editor" id=")(oHQ~J^jya[H6S]~_dW"><field name="melody">"C5 A G F E F G A "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="|4t(B|3(b]n7-+ZAL2!("><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">150</field></shadow></value><next><block type="device_print_message" id="YMil=b#3/6|^E_6W|d-d"><value name="text"><shadow type="text" id="c27zYn+kTh5WN2IemrTj"><field name="TEXT">MR HAJI</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="Gm0_eVw;ON+,XNZnJ~/T" x="0" y="812"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_plot" id="}U]%*,V;B-nT7r#vKv0("><value name="x"><shadow type="math_number_minmax" id="HqWlQ0^1ysj([?_un=gs"><mutation min="0" max="4" label="X" precision="1"></mutation><field name="SLIDER">2</field></shadow></value><value name="y"><shadow type="math_number_minmax" id=":_Q0{jg%wI3!*b5.|$d!"><mutation min="0" max="4" label="Y" precision="1"></mutation><field name="SLIDER">2</field></shadow></value></block></statement></block></xml>
